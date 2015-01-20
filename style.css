@@ -1,0 +1,14 @@
+body {
+  background-color:#155C3C;
+  color:white;
+}
+
+.container {
+  width:800px;
+  margin:0 auto;
+  margin-top:200px;
+  background-image:url("logo.png");
+  background-size:cover;
+  height:400px;
+  width:700px;
+}
