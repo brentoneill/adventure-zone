@@ -4,11 +4,24 @@
   <meta charset="UTF-8">
   <title>Choose Your Own Adventure(ZONE)</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <!--Loads game script on button press-->
+  <script>
+  $(document).ready(function () {
+    $("a").click(function () {
+      $.getScript('game.js', function () {
+      });
+    });
+  });
+  </script>
+
 </head>
 <body>
   <div class="container">
     <img src="logo.png" />
+    <a href="#" id="gameLoad">Click here to enter the Adventure(zone)!</a>
   </div>
-  <script src="game.js"></script>
+  <div class="game-container">
+  </div>
 </body>
 </html>

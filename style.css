@@ -1,3 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
+
+
 body {
   background-color:#155C3C;
   color:white;
@@ -11,4 +14,32 @@ body {
   background-size:cover;
   height:400px;
   width:700px;
+}
+
+.container img {
+  margin:0 auto;
+  display:block;
+  margin-bottom:20px;
+
+}
+
+.container a {
+  font-family: 'Berkshire Swash', cursive;
+  font-size:36px;
+  text-decoration:none;
+  text-align:center;
+  display:block;
+  width:50%;
+  margin:0 auto;
+  padding:10px;
+  border-radius:5px;
+  color:#155C3C;
+  background-color:white;
+  transition: all 1s ease;
+  box-shadow: 4px 4px 0px 0px rgba(255,255,255,.5);
+}
+
+.container a:hover {
+  color:#EE4523;
+  transform: scale(1.2);
 }
